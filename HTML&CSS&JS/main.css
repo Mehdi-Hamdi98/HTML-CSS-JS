@@ -1,0 +1,97 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+h1 img {
+    vertical-align: middle; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #59b5f2;
+    padding: 20px;
+}
+.title-container {
+    display: flex;
+    align-items: center;
+}
+
+#changeColourButton {
+    margin-left: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+h2.club-colours {
+    color: red; 
+}
+
+h2.club-achievements {
+    color: gold; 
+}
+h2.arsenal-players {
+    color: brown;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+img {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-bottom: 20px;
+    color: #fff; 
+}
+
+img.trophy {
+    margin-left: 80px; 
+}
+
+table, th, td {
+    border: 1px solid #a70a0a;
+    vertical-align: middle; 
+}
+
+th, td {
+    padding: 8px;
+    text-align: center; 
+}
+
+footer {
+    margin-top: 20px;
+}
+
+#tableContainer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #914242; 
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
